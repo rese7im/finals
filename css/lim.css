@@ -1,0 +1,41 @@
+
+    .parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .navbar {
+        background-color: #ca9ff5; /* Background color for the navigation bar (lighter purple) */
+        overflow: hidden; /* Clear any floats within the navbar */
+        padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+    }
+
+    .navbar-list {
+        list-style-type: none; /* Remove list bullets */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Display list items horizontally */
+        justify-content: center; /* Center align the list items horizontally */
+    }
+
+    .navbar-item {
+        margin: 0 10px; /* Add spacing around items */
+        align-items: center;
+    }
+
+    .navbar-item a {
+        display: block;
+        color: #ef54ef; /* Text color for the links (darker purple) */
+        text-align: center;
+        padding: 10px 20px; /* Add padding to the links for better clickability */
+        text-decoration: none; /* Remove underline from links */
+        transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+    }
+
+    .navbar-item a:hover {
+        background-color: #f0b3f4; /* Change background color on hover (lighter purple) */
+        color: #520752; /* Change text color on hover (darker purple) */
+    }

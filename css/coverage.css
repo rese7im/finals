@@ -1,0 +1,150 @@
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #b37aec; /* Background color for the navigation bar (lighter purple) */
+    overflow: hidden; /* Clear any floats within the navbar */
+    padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+}
+body {
+    background-color: #e6e6fa; /* Background color for the page (lighter purple) */
+}
+.navbar-list {
+    list-style-type: none; /* Remove list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items horizontally */
+    justify-content: center; /* Center align the list items horizontally */
+}
+
+.navbar-item {
+    margin: 0 16px; /* Add spacing around items */
+    align-items: center;
+}
+
+.navbar-item a {
+    display: block;
+    color: #800080; /* Text color for the links (darker purple) */
+    text-align: center;
+    padding: 10px 6px; /* Add padding to the links for better clickability */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+}
+
+.navbar-item a:hover {
+    background-color: #f0b3f4; /* Change background color on hover (lighter purple) */
+    color: #520752; /* Change text color on hover (darker purple) */
+}
+
+/* Styles for the photo containers */
+.photo-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow multiple photos in the same row */
+    justify-content: flex-start; /* Align photos to the left */
+    margin-top: 8px; /* Add margin to create spaces between rows */
+}
+
+.photo {
+    flex: 120; /* Allow photos to stretch to fill the available space */
+    margin: 0; /* Remove margin to make photos closer to each other */
+    padding: 0; /* Remove padding to make photos closer to each other */
+}
+
+/* styles.css */
+
+/* Add a lighter purple background and margin to the paragraph */
+.centered-text p {
+    padding: 10px; /* Add padding to create space around the text */
+    text-align: center; /* Center-align the text horizontally */
+}
+
+/* Set font size to 48, font color to darker purple, add padding, and center-align the text */
+.centered-text p {
+    font-size: 28px; /* Set font size to 48 */
+    color: #520752; /* Set text color to darker purple */
+    padding: 10px; /* Add padding to create space around the text */
+    text-align: center; /* Center-align the text horizontally */
+    margin: 0 0 10px; /* Add margin to the bottom of each paragraph */
+}
+/* styles.css */
+
+/* Add right margin to the table to create space */
+table td {
+    margin-right: 45px; /* Adjust the value to control the amount of right space */
+}
+/* styles.css */
+/* Center-align the text horizontally and add some space */
+.centered-text p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 5px; /* Add space around the text */
+}
+/* Add margin to create space between paragraphs */
+/* Style for the image container */
+/* Style for the image container */
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.top-text {
+    font-family: 'Blackletter', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: #520752; /* Dark purple color */
+    position: absolute;
+    top: 10px; /* Adjust the vertical position */
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Style for the bottom text */
+.bottom-text {
+    text-align: center;
+}
+
+.bottom-text p {
+    font-family: 'Blackletter', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: #520752; /* Dark purple color */
+    margin: 0;
+}
+
+/* CSS for the horizontal line */
+.horizontal-line {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    background-color: #000; /* Change the color as needed */
+    height: 1px; /* Adjust the line height as needed */
+    margin: 0 10px; /* Adjust the spacing as needed */
+}
+
+.text {
+    font-weight: bold;
+    color: #000; /* Change the color as needed */
+}
+.since-text {
+    text-align: center;
+}
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+.navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
